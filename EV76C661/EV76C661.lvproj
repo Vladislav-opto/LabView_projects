@@ -1803,8 +1803,8 @@ Local_Supply_SelectArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegisters
 			<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">PXI-7953R/RioClk40/falsefalseFLEXRIO_IO_MODELNI_6581FPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSPXI_7953RFPGA_TARGET_FAMILYVIRTEX5TARGET_TYPEFPGA</Property>
 			<Property Name="NI.LV.FPGA.Version" Type="Int">6</Property>
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Property Name="niFpga_TopLevelVIID" Type="Path">/C/Users/Vladislav/Desktop/EV76C661_LV/EV76C661/Target.vi</Property>
-			<Property Name="Resource Name" Type="Str"></Property>
+			<Property Name="niFpga_TopLevelVIID" Type="Path">/C/VPL/LabView_PRJ/EV76C661/Target.vi</Property>
+			<Property Name="Resource Name" Type="Str">RIO0</Property>
 			<Property Name="Target Class" Type="Str">PXI-7953R</Property>
 			<Property Name="Top-Level Timing Source" Type="Str">40 MHz Onboard Clock</Property>
 			<Property Name="Top-Level Timing Source Is Default" Type="Bool">true</Property>
@@ -2347,7 +2347,7 @@ FIFO"ControlLogic=0;NumberOfElements=262143;Type=2;ReadArbs=Arbitrate if Multipl
 &lt;/Cluster&gt;
 &lt;/Array&gt;
 Local_Supply_SelectArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/Local_Supply_Select;0;WriteMethodType=U8MemoryActual Number of Elements=1310720;ReadArbs=1;WriteArbs=1;Implementation=3;DataType=1000800000000001000940050002553800000100000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=32;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=2PXI-7953R/RioClk40/falsefalseFLEXRIO_IO_MODELNI_6581FPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSPXI_7953RFPGA_TARGET_FAMILYVIRTEX5TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]</Property>
-				<Property Name="NI.LV.FPGA.InterfaceBitfile" Type="Str">C:\Users\Vladislav\Desktop\EV76C661_LV\EV76C661\FPGA Bitfiles\EV76C661_FPGATarget_Target_rE9nDVbN07k.lvbitx</Property>
+				<Property Name="NI.LV.FPGA.InterfaceBitfile" Type="Str">C:\VPL\LabView_PRJ\EV76C661\FPGA Bitfiles\EV76C661_FPGATarget_Target_LxE3WAGXilk.lvbitx</Property>
 			</Item>
 			<Item Name="FIFO" Type="FPGA FIFO">
 				<Property Name="Actual Number of Elements" Type="UInt">262143</Property>
@@ -4609,8 +4609,8 @@ Local_Supply_SelectArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegisters
 					<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
 					<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
 					<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
-					<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/Users/Vladislav/Desktop/EV76C661_LV/EV76C661/FPGA Bitfiles/EV76C661_FPGATarget_Target_rE9nDVbN07k.lvbitx</Property>
-					<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/EV76C661_FPGATarget_Target_rE9nDVbN07k.lvbitx</Property>
+					<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/VPL/LabView_PRJ/EV76C661/FPGA Bitfiles/EV76C661_FPGATarget_Target_LxE3WAGXilk.lvbitx</Property>
+					<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/EV76C661_FPGATarget_Target_LxE3WAGXilk.lvbitx</Property>
 					<Property Name="ProjectPath" Type="Path">/C/Users/Vladislav/Desktop/EV76C661_LV/EV76C661/EV76C661.lvproj</Property>
 					<Property Name="RelativePath" Type="Bool">true</Property>
 					<Property Name="RunWhenLoaded" Type="Bool">false</Property>
@@ -4662,7 +4662,7 @@ Local_Supply_SelectArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegisters
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="EV76C661_FPGATarget_Target_rE9nDVbN07k.lvbitx" Type="Document" URL="../FPGA Bitfiles/EV76C661_FPGATarget_Target_rE9nDVbN07k.lvbitx"/>
+			<Item Name="EV76C661_FPGATarget_Target_LxE3WAGXilk.lvbitx" Type="Document" URL="../FPGA Bitfiles/EV76C661_FPGATarget_Target_LxE3WAGXilk.lvbitx"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

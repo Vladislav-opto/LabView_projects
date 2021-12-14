@@ -12,6 +12,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Host.vi" Type="VI" URL="../Host.vi"/>
+		<Item Name="Host_Laser.vi" Type="VI" URL="../Host_Laser.vi"/>
 		<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
 		<Item Name="FPGA Target" Type="FPGA Target">
 			<Property Name="AutoRun" Type="Bool">false</Property>
@@ -577,7 +578,7 @@ Local_Supply_SelectArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegisters
             <RelativeToLabVIEW>..\Shared\FlexRIO\IO Modules\NI 6581\NI6581Channel\1.0.0\Ni6581Channel.xml</RelativeToLabVIEW>
             <RelativeToNiPubDocs>..\..\..\..\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 6581\NI6581Channel\1.0.0\Ni6581Channel.xml</RelativeToNiPubDocs>
             <RelativeToNiSharedDir>Shared\FlexRIO\IO Modules\NI 6581\NI6581Channel\1.0.0\Ni6581Channel.xml</RelativeToNiSharedDir>
-            <RelativeToProject>..\..\..\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 6581\NI6581Channel\1.0.0\Ni6581Channel.xml</RelativeToProject>
+            <RelativeToProject>..\..\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 6581\NI6581Channel\1.0.0\Ni6581Channel.xml</RelativeToProject>
             <Valid>true</Valid>
          </DeclarationPaths>
          <Description>This is a simple channel-based CLIP for the NI 6581 adapter module.  It has 48 data lines, eight PFI lines, two clock inputs, two clock outputs, and allows for individual clock output inversion.</Description>
@@ -4621,6 +4622,9 @@ Local_Supply_SelectArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegisters
 				</Item>
 			</Item>
 		</Item>
+		<Item Name="Spels.AutomationTools.RemoteFunctionalControlService.dll" Type="Document" URL="../Spels.AutomationTools.RemoteFunctionalControlService.dll"/>
+		<Item Name="Spels.AutomationTools.Utility.dll" Type="Document" URL="../Spels.AutomationTools.Utility.dll"/>
+		<Item Name="Spels.AutomationTools.Utility.Wcf.dll" Type="Document" URL="../Spels.AutomationTools.Utility.Wcf.dll"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>

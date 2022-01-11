@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [spb_project.PrjPcb]
+   Generated File[spb_pcb-Plated.TXT]
+   Generated File[spb_pcb.LDP]
+   Generated File[spb_pcb.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 14:47:15 On 02.03.2021

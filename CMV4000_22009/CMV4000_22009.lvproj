@@ -29,7 +29,7 @@
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 			</Item>
-			<Item Name="Begin.vi" Type="VI" URL="../../EV76C661/Begin.vi"/>
+			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
 			<Item Name="nidcpower_32.dll" Type="Document" URL="nidcpower_32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>

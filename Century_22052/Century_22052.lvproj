@@ -1804,7 +1804,7 @@ Local_Supply_SelectArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegisters
 			<Property Name="NI.LV.FPGA.Version" Type="Int">6</Property>
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Property Name="niFpga_TopLevelVIID" Type="Path">/C/VPL/LabView_PRJ/Century_22052/Target.vi</Property>
-			<Property Name="Resource Name" Type="Str"></Property>
+			<Property Name="Resource Name" Type="Str">RIO0</Property>
 			<Property Name="Target Class" Type="Str">PXI-7953R</Property>
 			<Property Name="Top-Level Timing Source" Type="Str">40 MHz Onboard Clock</Property>
 			<Property Name="Top-Level Timing Source Is Default" Type="Bool">true</Property>
@@ -4510,7 +4510,11 @@ Local_Supply_SelectArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegisters
 				<Item Name="Dependencies" Type="Dependencies"/>
 				<Item Name="Build Specifications" Type="Build"/>
 			</Item>
-			<Item Name="Dependencies" Type="Dependencies"/>
+			<Item Name="Dependencies" Type="Dependencies">
+				<Item Name="vi.lib" Type="Folder">
+					<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
+				</Item>
+			</Item>
 			<Item Name="Build Specifications" Type="Build">
 				<Item Name="Target" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
 					<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
@@ -4540,6 +4544,8 @@ Local_Supply_SelectArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegisters
 					<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
 					<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
 					<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
+					<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/VPL/LabView_PRJ/Century_22052/FPGA Bitfiles/Century22052_FPGATarget_Target_F4PYkC+UQnQ.lvbitx</Property>
+					<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/Century22052_FPGATarget_Target_F4PYkC+UQnQ.lvbitx</Property>
 					<Property Name="ProjectPath" Type="Path">/C/VPL/LabView_PRJ/Century_22052/Century_22052.lvproj</Property>
 					<Property Name="RelativePath" Type="Bool">true</Property>
 					<Property Name="RunWhenLoaded" Type="Bool">false</Property>
@@ -4568,8 +4574,11 @@ Local_Supply_SelectArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegisters
 				<Item Name="niDCPower Measure.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Measure.vi"/>
 				<Item Name="niDCPower Close.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Close.vi"/>
 			</Item>
-			<Item Name="EV76C661_FPGATarget_Target_LxE3WAGXilk.lvbitx" Type="Document" URL="../../EV76C661/FPGA Bitfiles/EV76C661_FPGATarget_Target_LxE3WAGXilk.lvbitx"/>
 			<Item Name="nidcpower_32.dll" Type="Document" URL="nidcpower_32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Century22052_FPGATarget_Target_F4PYkC+UQnQ.lvbitx" Type="Document" URL="../FPGA Bitfiles/Century22052_FPGATarget_Target_F4PYkC+UQnQ.lvbitx"/>
+			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>

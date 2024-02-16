@@ -577,7 +577,7 @@ Local_Supply_SelectArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegisters
             <RelativeToLabVIEW>..\Shared\FlexRIO\IO Modules\NI 6581\NI6581Channel\1.0.0\Ni6581Channel.xml</RelativeToLabVIEW>
             <RelativeToNiPubDocs>..\..\..\..\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 6581\NI6581Channel\1.0.0\Ni6581Channel.xml</RelativeToNiPubDocs>
             <RelativeToNiSharedDir>Shared\FlexRIO\IO Modules\NI 6581\NI6581Channel\1.0.0\Ni6581Channel.xml</RelativeToNiSharedDir>
-            <RelativeToProject>..\..\..\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 6581\NI6581Channel\1.0.0\Ni6581Channel.xml</RelativeToProject>
+            <RelativeToProject>..\..\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 6581\NI6581Channel\1.0.0\Ni6581Channel.xml</RelativeToProject>
             <Valid>true</Valid>
          </DeclarationPaths>
          <Description>This is a simple channel-based CLIP for the NI 6581 adapter module.  It has 48 data lines, eight PFI lines, two clock inputs, two clock outputs, and allows for individual clock output inversion.</Description>
@@ -1803,7 +1803,7 @@ Local_Supply_SelectArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegisters
 			<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">PXI-7953R/RioClk40/falsefalseFLEXRIO_IO_MODELNI_6581FPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSPXI_7953RFPGA_TARGET_FAMILYVIRTEX5TARGET_TYPEFPGA</Property>
 			<Property Name="NI.LV.FPGA.Version" Type="Int">6</Property>
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Property Name="niFpga_TopLevelVIID" Type="Path">/C/VPL/LabView_PRJ/GSENSE2020BSI/Target.vi</Property>
+			<Property Name="niFpga_TopLevelVIID" Type="Path">/C/LabView_PRJ/GSENSE2020BSI/Target.vi</Property>
 			<Property Name="Resource Name" Type="Str">RIO0</Property>
 			<Property Name="Target Class" Type="Str">PXI-7953R</Property>
 			<Property Name="Top-Level Timing Source" Type="Str">40 MHz Onboard Clock</Property>
@@ -1847,6 +1847,7 @@ Local_Supply_SelectArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegisters
 				</Item>
 			</Item>
 			<Item Name="Target.vi" Type="VI" URL="../Target.vi">
+				<Property Name="BuildSpec" Type="Str">{68EDA32B-B4B0-4959-A8F6-69234E446A91}</Property>
 				<Property Name="configString.guid" Type="Str">{0086F813-4791-4DF4-820C-EC16D87AD2DD}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/DDCA_DIO16-23_WE;0;WriteMethodType=bool{0153A028-ACC3-408B-8835-163E53C7C5C3}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/DDCB_DIO0_Write;0;WriteMethodType=bool{01679885-0CBC-403F-B996-01042CD9FBD7}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/DDCA_DIO8-15_WE;0;WriteMethodType=bool{033F8A95-BFA2-47E3-A3AA-4578F9E0C960}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/Local_Supply_Select;0;WriteMethodType=U8{037A55A5-236A-490A-A0FD-B129E916AA01}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/DDCB_DIO6_Read;0;ReadMethodType=bool{043F36B0-7368-4D15-BDAD-BBE57A129169}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/DDCB_DIO8-15_WE;0;WriteMethodType=bool{0722BBA9-CF8B-41E5-BCE2-80EE0119E4B1}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/DDCB_DIO23_Read;0;ReadMethodType=bool{07F48929-285B-4B03-998F-A5D00F5D148E}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/DDCA_DIO0-7_WE;0;WriteMethodType=bool{0D18BAF3-80E6-4199-B7E9-236486A82DA0}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/DDCA_DIO4_Read;0;ReadMethodType=bool{0D2168FE-3624-4B95-85C8-EE366A1E9F1D}Multiplier=1,000000;Divisor=4,000000{11F8660B-D229-4171-A268-58203F16C7FE}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/DDCA_DIO3_Read;0;ReadMethodType=bool{125A7F07-748A-4D8E-B17C-8C7F2789798D}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/DDCB_DIO7_Write;0;WriteMethodType=bool{1343D8CB-821C-45E7-B9A5-67C224D061D0}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/DDCB_DIO12_Write;0;WriteMethodType=bool{15E2E491-9B81-4959-8E1E-8837CA6E2F97}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/DDCA_DIO10_Write;0;WriteMethodType=bool{1BABA796-547E-49B3-8AC5-A6A1602957EA}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/DDCA_PFI1_Write;0;WriteMethodType=bool{1DA842DF-64E2-46DE-A12C-D2351A3929C3}ResourceName=40 MHz Onboard Clock;TopSignalConnect=RioClk40;ClockSignalName=RioClk40;MinFreq=40000000,000000;MaxFreq=40000000,000000;VariableFreq=0;NomFreq=40000000,000000;PeakPeriodJitter=250,000000;MinDutyCycle=50,000000;MaxDutyCycle=50,000000;Accuracy=100,000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{1DEBCB58-A98B-4CA0-A485-6A24DECCCD94}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/DDCB_DIO5_Read;0;ReadMethodType=bool{21EAE46D-4E56-4EC3-8DE0-070A8F09C9BC}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/DDCB_DIO3_Read;0;ReadMethodType=bool{232954BB-C8F5-4F31-910A-3CDFB880DB15}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/DDCA_DIO18_Read;0;ReadMethodType=bool{23ADBC77-34AD-4B05-A5EB-71ED6424EE46}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/DDCB_PFI1_Read;0;ReadMethodType=bool{23E5ED86-CF2F-4BDD-8F38-8D1637181EAE}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/DDCA_Invert_ClockOut;0;WriteMethodType=bool{25978055-84EE-4F04-B34C-D5BBFE7B5076}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/DDCB_DIO0_Read;0;ReadMethodType=bool{2718A3CD-6186-4C87-A995-0FD05F2953E6}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/DDCB_DIO3_Write;0;WriteMethodType=bool{2843E2B0-3E13-4A59-8D70-4487A82A2FEA}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/DDCB_DIO18_Read;0;ReadMethodType=bool{29380571-A231-423B-AC48-342C5122D972}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/DDCA_DIO1_Write;0;WriteMethodType=bool{2CBEA186-3279-4990-8BC4-2DABA2E758CD}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/DDCA_DIO4_Write;0;WriteMethodType=bool{2EB2517B-613F-4A73-9B9F-4B3692563D91}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/DDCA_DIO14_Read;0;ReadMethodType=bool{315C584D-0AD2-4A73-A348-4492A7D3309D}08732759282a3db73b7b1e559462c0046c9a17897e0dbf70e5d760c4fb52ede3aca54b4b695325f8218e88264f93ffcad019a5fd9dcd51b666cf842f71ae91b2&lt;Array&gt;
 &lt;Name&gt;Generics&lt;/Name&gt;
 &lt;Dimsize&gt;0&lt;/Dimsize&gt;
@@ -2385,7 +2386,7 @@ FIFO"ControlLogic=0;NumberOfElements=131071;Type=2;ReadArbs=Arbitrate if Multipl
 &lt;/Cluster&gt;
 &lt;/Array&gt;
 Local_Supply_SelectArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/Local_Supply_Select;0;WriteMethodType=U8MemoryActual Number of Elements=6291456;ReadArbs=1;WriteArbs=1;Implementation=3;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=2PXI-7953R/RioClk40/falsefalseFLEXRIO_IO_MODELNI_6581FPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSPXI_7953RFPGA_TARGET_FAMILYVIRTEX5TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]</Property>
-				<Property Name="NI.LV.FPGA.InterfaceBitfile" Type="Str">C:\VPL\LabView_PRJ\GSENSE2020BSI\FPGA Bitfiles\GSENSE2020_FPGATarget_Target_CltZzWUReIE.lvbitx</Property>
+				<Property Name="NI.LV.FPGA.InterfaceBitfile" Type="Str">C:\LabView_PRJ\GSENSE2020BSI\FPGA Bitfiles\GSENSE2020_FPGATarget_Target_dmqGfihq6bQ.lvbitx</Property>
 			</Item>
 			<Item Name="Memory" Type="FPGA Memory Block">
 				<Property Name="FPGA.PersistentID" Type="Str">{E21BD23B-B5CE-4DF6-8A33-BCFE6E6C7268}</Property>
@@ -4570,46 +4571,7 @@ Local_Supply_SelectArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegisters
 					<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 				</Item>
 			</Item>
-			<Item Name="Build Specifications" Type="Build">
-				<Item Name="Target" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
-					<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
-					<Property Name="BuildSpecDecription" Type="Str"></Property>
-					<Property Name="BuildSpecName" Type="Str">Target</Property>
-					<Property Name="Comp.BitfileName" Type="Str">GSENSE2020_FPGATarget_Target_CltZzWUReIE.lvbitx</Property>
-					<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
-					<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
-					<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
-					<Property Name="Comp.Version.Build" Type="Int">0</Property>
-					<Property Name="Comp.Version.Fix" Type="Int">0</Property>
-					<Property Name="Comp.Version.Major" Type="Int">1</Property>
-					<Property Name="Comp.Version.Minor" Type="Int">0</Property>
-					<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
-					<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
-					<Property Name="Comp.Vivado.OptDirective" Type="Str"></Property>
-					<Property Name="Comp.Vivado.PhysOptDirective" Type="Str"></Property>
-					<Property Name="Comp.Vivado.PlaceDirective" Type="Str"></Property>
-					<Property Name="Comp.Vivado.RouteDirective" Type="Str"></Property>
-					<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
-					<Property Name="Comp.Vivado.Strategy" Type="Str">Default</Property>
-					<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">balanced</Property>
-					<Property Name="Comp.Xilinx.MapEffort" Type="Str">high(timing)</Property>
-					<Property Name="Comp.Xilinx.ParEffort" Type="Str">standard</Property>
-					<Property Name="Comp.Xilinx.SynthEffort" Type="Str">normal</Property>
-					<Property Name="Comp.Xilinx.SynthGoal" Type="Str">speed</Property>
-					<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
-					<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
-					<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
-					<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/VPL/LabView_PRJ/GSENSE2020BSI/FPGA Bitfiles/GSENSE2020_FPGATarget_Target_CltZzWUReIE.lvbitx</Property>
-					<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/GSENSE2020_FPGATarget_Target_CltZzWUReIE.lvbitx</Property>
-					<Property Name="ProjectPath" Type="Path">/C/VPL/LabView_PRJ/GSENSE2020BSI/GSENSE2020.lvproj</Property>
-					<Property Name="RelativePath" Type="Bool">true</Property>
-					<Property Name="RunWhenLoaded" Type="Bool">false</Property>
-					<Property Name="SupportDownload" Type="Bool">true</Property>
-					<Property Name="SupportResourceEstimation" Type="Bool">true</Property>
-					<Property Name="TargetName" Type="Str">FPGA Target</Property>
-					<Property Name="TopLevelVI" Type="Ref">/My Computer/FPGA Target/Target.vi</Property>
-				</Item>
-			</Item>
+			<Item Name="Build Specifications" Type="Build"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -4644,16 +4606,16 @@ Local_Supply_SelectArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegisters
 			<Item Name="nidcpower_32.dll" Type="Document" URL="nidcpower_32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="GSENSE2020_FPGATarget_Target_CltZzWUReIE.lvbitx" Type="Document" URL="../FPGA Bitfiles/GSENSE2020_FPGATarget_Target_CltZzWUReIE.lvbitx"/>
+			<Item Name="GSENSE2020_FPGATarget_Target_dmqGfihq6bQ.lvbitx" Type="Document" URL="../FPGA Bitfiles/GSENSE2020_FPGATarget_Target_dmqGfihq6bQ.lvbitx"/>
+			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

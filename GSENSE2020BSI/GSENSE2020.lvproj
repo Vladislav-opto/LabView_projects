@@ -578,7 +578,7 @@ Local_Supply_SelectArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegisters
             <RelativeToLabVIEW>..\Shared\FlexRIO\IO Modules\NI 6581\NI6581Channel\1.0.0\Ni6581Channel.xml</RelativeToLabVIEW>
             <RelativeToNiPubDocs>..\..\..\..\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 6581\NI6581Channel\1.0.0\Ni6581Channel.xml</RelativeToNiPubDocs>
             <RelativeToNiSharedDir>Shared\FlexRIO\IO Modules\NI 6581\NI6581Channel\1.0.0\Ni6581Channel.xml</RelativeToNiSharedDir>
-            <RelativeToProject>..\..\..\..\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 6581\NI6581Channel\1.0.0\Ni6581Channel.xml</RelativeToProject>
+            <RelativeToProject>..\..\..\..\..\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 6581\NI6581Channel\1.0.0\Ni6581Channel.xml</RelativeToProject>
             <Valid>true</Valid>
          </DeclarationPaths>
          <Description>This is a simple channel-based CLIP for the NI 6581 adapter module.  It has 48 data lines, eight PFI lines, two clock inputs, two clock outputs, and allows for individual clock output inversion.</Description>
@@ -1805,7 +1805,7 @@ Local_Supply_SelectArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegisters
 			<Property Name="NI.LV.FPGA.DramBanksReservedForMemories" Type="Str">DramBank0;DramBank1</Property>
 			<Property Name="NI.LV.FPGA.Version" Type="Int">6</Property>
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Property Name="niFpga_TopLevelVIID" Type="Path">/C/LabView_PRJ/GSENSE2020BSI/Target.vi</Property>
+			<Property Name="niFpga_TopLevelVIID" Type="Path">/C/Users/agest/Downloads/GSENSE2020BSI/GSENSE2020BSI/Target.vi</Property>
 			<Property Name="Resource Name" Type="Str"></Property>
 			<Property Name="SWEmulationSubMode" Type="UInt">0</Property>
 			<Property Name="SWEmulationVIPath" Type="Path"></Property>
@@ -2390,7 +2390,7 @@ FIFO"ControlLogic=0;NumberOfElements=131071;Type=2;ReadArbs=Arbitrate if Multipl
 &lt;/Cluster&gt;
 &lt;/Array&gt;
 Local_Supply_SelectArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/Local_Supply_Select;0;WriteMethodType=U8MemoryActual Number of Elements=6946816;ReadArbs=1;WriteArbs=1;Implementation=3;DataType=1000800000000001000940050002553800000100000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=2PXI-7953R/RioClk40/falsefalseFLEXRIO_IO_MODELNI_6581FPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSPXI_7953RFPGA_TARGET_FAMILYVIRTEX5TARGET_TYPEFPGA</Property>
-				<Property Name="NI.LV.FPGA.InterfaceBitfile" Type="Str">C:\LabView_PRJ\GSENSE2020BSI\FPGA Bitfiles\GSENSE2020_FPGATarget_Target_dmqGfihq6bQ.lvbitx</Property>
+				<Property Name="NI.LV.FPGA.InterfaceBitfile" Type="Str">C:\Users\agest\Downloads\GSENSE2020BSI\GSENSE2020BSI\FPGA Bitfiles\GSENSE2020_FPGATarget_Target_9RNRyOdm3f8.lvbitx</Property>
 			</Item>
 			<Item Name="Memory" Type="FPGA Memory Block">
 				<Property Name="FPGA.PersistentID" Type="Str">{E21BD23B-B5CE-4DF6-8A33-BCFE6E6C7268}</Property>
@@ -4571,11 +4571,7 @@ Local_Supply_SelectArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegisters
 				<Item Name="Dependencies" Type="Dependencies"/>
 				<Item Name="Build Specifications" Type="Build"/>
 			</Item>
-			<Item Name="Dependencies" Type="Dependencies">
-				<Item Name="vi.lib" Type="Folder">
-					<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
-				</Item>
-			</Item>
+			<Item Name="Dependencies" Type="Dependencies"/>
 			<Item Name="Build Specifications" Type="Build">
 				<Item Name="Target" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
 					<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
@@ -4605,8 +4601,8 @@ Local_Supply_SelectArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegisters
 					<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
 					<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
 					<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
-					<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/LabView_PRJ/GSENSE2020BSI/FPGA Bitfiles/GSENSE2020_FPGATarget_Target_dmqGfihq6bQ.lvbitx</Property>
-					<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/GSENSE2020_FPGATarget_Target_dmqGfihq6bQ.lvbitx</Property>
+					<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/Users/agest/Downloads/GSENSE2020BSI/GSENSE2020BSI/FPGA Bitfiles/GSENSE2020_FPGATarget_Target_9RNRyOdm3f8.lvbitx</Property>
+					<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/GSENSE2020_FPGATarget_Target_9RNRyOdm3f8.lvbitx</Property>
 					<Property Name="ProjectPath" Type="Path">/C/Users/agest/Downloads/GSENSE2020BSI/GSENSE2020.lvproj</Property>
 					<Property Name="RelativePath" Type="Bool">true</Property>
 					<Property Name="RunWhenLoaded" Type="Bool">true</Property>
@@ -4658,7 +4654,7 @@ Local_Supply_SelectArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegisters
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="GSENSE2020_FPGATarget_Target_dmqGfihq6bQ.lvbitx" Type="Document" URL="../FPGA Bitfiles/GSENSE2020_FPGATarget_Target_dmqGfihq6bQ.lvbitx"/>
+			<Item Name="GSENSE2020_FPGATarget_Target_9RNRyOdm3f8.lvbitx" Type="Document" URL="../FPGA Bitfiles/GSENSE2020_FPGATarget_Target_9RNRyOdm3f8.lvbitx"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

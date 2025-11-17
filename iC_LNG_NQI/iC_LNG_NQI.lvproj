@@ -20,8 +20,8 @@
 			<Property Name="Mode" Type="Int">0</Property>
 			<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">PXI-7841R/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSPXI_7841RFPGA_TARGET_FAMILYVIRTEX5TARGET_TYPEFPGA</Property>
 			<Property Name="NI.LV.FPGA.Version" Type="Int">6</Property>
-			<Property Name="niFpga_TopLevelVIID" Type="Path">/C/Users/agest/Downloads/Telegram Desktop/iC_LNG_NQI/Target.vi</Property>
-			<Property Name="Resource Name" Type="Str"></Property>
+			<Property Name="niFpga_TopLevelVIID" Type="Path">/C/Users/OptoPC/Downloads/iC_LNG_NQI/Target.vi</Property>
+			<Property Name="Resource Name" Type="Str">RIO0</Property>
 			<Property Name="Target Class" Type="Str">PXI-7841R</Property>
 			<Property Name="Top-Level Timing Source" Type="Str">40 MHz Onboard Clock</Property>
 			<Property Name="Top-Level Timing Source Is Default" Type="Bool">true</Property>
@@ -688,7 +688,11 @@
 				<Item Name="Dependencies" Type="Dependencies"/>
 				<Item Name="Build Specifications" Type="Build"/>
 			</Item>
-			<Item Name="Dependencies" Type="Dependencies"/>
+			<Item Name="Dependencies" Type="Dependencies">
+				<Item Name="vi.lib" Type="Folder">
+					<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
+				</Item>
+			</Item>
 			<Item Name="Build Specifications" Type="Build">
 				<Item Name="Target" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
 					<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
@@ -748,13 +752,13 @@
 				<Item Name="niDCPower Measure.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Measure.vi"/>
 				<Item Name="niDCPower Close.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Close.vi"/>
 			</Item>
-			<Item Name="MT9V024IA7XTM_FPGATarget_Target_SM0JNh2yPhg.lvbitx" Type="Document" URL="../../MT9V024IA7XTM/FPGA Bitfiles/MT9V024IA7XTM_FPGATarget_Target_SM0JNh2yPhg.lvbitx"/>
 			<Item Name="nidcpower_32.dll" Type="Document" URL="nidcpower_32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="iCLNGNQI_FPGATarget_Target_+uOtQ3l4Bf4.lvbitx" Type="Document" URL="../FPGA Bitfiles/iCLNGNQI_FPGATarget_Target_+uOtQ3l4Bf4.lvbitx"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

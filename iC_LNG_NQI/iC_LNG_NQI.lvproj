@@ -760,6 +760,7 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="iCLNGNQI_FPGATarget_Target_OrC3no1FGAk.lvbitx" Type="Document" URL="../FPGA Bitfiles/iCLNGNQI_FPGATarget_Target_OrC3no1FGAk.lvbitx"/>
+			<Item Name="Spels.AutomationTools.RemoteFunctionalControlService.dll" Type="Document" URL="../Laser_libs/Spels.AutomationTools.RemoteFunctionalControlService.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

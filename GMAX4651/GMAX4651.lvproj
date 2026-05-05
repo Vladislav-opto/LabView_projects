@@ -13,6 +13,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="HOST_4651.vi" Type="VI" URL="../HOST_4651.vi"/>
 		<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
+		<Item Name="SPI_Regs.vi" Type="VI" URL="../SPI_Regs.vi"/>
 		<Item Name="FPGA Target" Type="FPGA Target">
 			<Property Name="AutoRun" Type="Bool">false</Property>
 			<Property Name="CCSymbols" Type="Str">FLEXRIO_IO_MODEL,NI_6581;</Property>
@@ -2345,6 +2346,7 @@ FRAME_T1"ControlLogic=0;NumberOfElements=32767;Type=2;ReadArbs=Arbitrate if Mult
 &lt;/Cluster&gt;
 &lt;/Array&gt;
 Local_Supply_SelectArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/Local_Supply_Select;0;WriteMethodType=U8PXI-7953R/RioClk40/falsefalseFLEXRIO_IO_MODELNI_6581FPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSPXI_7953RFPGA_TARGET_FAMILYVIRTEX5TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]READActual Number of Elements=2960;ReadArbs=1;WriteArbs=1;Implementation=2;DataType=1000800000000001000A402104426F6F6C00000100000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=TRUE;Memory Latency=2T_TO_H"ControlLogic=0;NumberOfElements=4095;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;T_TO_H;DataType=1000800000000001000A402104426F6F6C00000100000000000000;DisableOnOverflowUnderflow=FALSE"T1 6043264 64-bitActual Number of Elements=6160384;ReadArbs=1;WriteArbs=1;Implementation=3;DataType=100080000000000100094008000355363400010000000000000000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=0;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=2WRITEActual Number of Elements=2970;ReadArbs=1;WriteArbs=1;Implementation=2;DataType=1000800000000001000A402104426F6F6C00000100000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=TRUE;Memory Latency=2</Property>
+				<Property Name="NI.LV.FPGA.InterfaceBitfile" Type="Str">D:\VPL\LabView_PRJ\GMAX4651\FPGA Bitfiles\GMAX4651_FPGATarget_Target4651_7TB9TLSSPWg.lvbitx</Property>
 			</Item>
 			<Item Name="T1 6043264 64-bit" Type="FPGA Memory Block">
 				<Property Name="FPGA.PersistentID" Type="Str">{B431BA87-221E-446E-A2F3-A1E374EBA081}</Property>
@@ -2407,7 +2409,7 @@ Local_Supply_SelectArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegisters
 				<Property Name="NI.LV.FPGA.MEMORY.DramSelection" Type="Str">DramBank0</Property>
 				<Property Name="NI.LV.FPGA.MEMORY.Init" Type="Bool">false</Property>
 				<Property Name="NI.LV.FPGA.MEMORY.InitData" Type="Str"></Property>
-				<Property Name="NI.LV.FPGA.MEMORY.InitVIPath" Type="Str"></Property>
+				<Property Name="NI.LV.FPGA.MEMORY.InitVIPath" Type="Str">SPI_Regs.vi</Property>
 				<Property Name="NI.LV.FPGA.MEMORY.InterfaceAArbitration" Type="UInt">1</Property>
 				<Property Name="NI.LV.FPGA.MEMORY.InterfaceBArbitration" Type="UInt">1</Property>
 				<Property Name="NI.LV.FPGA.MEMORY.InterfaceConfig" Type="UInt">0</Property>
@@ -4727,6 +4729,8 @@ Local_Supply_SelectArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegisters
 					<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
 					<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
 					<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
+					<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/D/VPL/LabView_PRJ/GMAX4651/FPGA Bitfiles/GMAX4651_FPGATarget_Target4651_7TB9TLSSPWg.lvbitx</Property>
+					<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/GMAX4651_FPGATarget_Target4651_7TB9TLSSPWg.lvbitx</Property>
 					<Property Name="ProjectPath" Type="Path">/D/VPL/LabView_PRJ/GMAX4651/GMAX4651.lvproj</Property>
 					<Property Name="RelativePath" Type="Bool">true</Property>
 					<Property Name="RunWhenLoaded" Type="Bool">false</Property>
@@ -4742,9 +4746,9 @@ Local_Supply_SelectArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegisters
 				<Item Name="niDCPower Measurement Type.ctl" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Measurement Type.ctl"/>
 				<Item Name="niDCPower Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Initialize.vi"/>
 				<Item Name="niDCPower Configure Voltage Level.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Configure Voltage Level.vi"/>
-				<Item Name="niDCPower IVI Error Converter.vi" Type="VI" URL="/&lt;instrlib&gt;/nidcpower/nidcpower.llb/niDCPower IVI Error Converter.vi"/>
+				<Item Name="niDCPower IVI Error Converter.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower IVI Error Converter.vi"/>
 				<Item Name="niDCPower Configure Current Limit.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Configure Current Limit.vi"/>
-				<Item Name="niDCPower Current Limit Behavior.ctl" Type="VI" URL="/&lt;instrlib&gt;/nidcpower/nidcpower.llb/niDCPower Current Limit Behavior.ctl"/>
+				<Item Name="niDCPower Current Limit Behavior.ctl" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Current Limit Behavior.ctl"/>
 				<Item Name="niDCPower Measure.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Measure.vi"/>
 				<Item Name="niDCPower Configure Output Enabled.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Configure Output Enabled.vi"/>
 				<Item Name="niDCPower Close.vi" Type="VI" URL="/&lt;instrlib&gt;/niDCPower/nidcpower.llb/niDCPower Close.vi"/>
@@ -4754,9 +4758,6 @@ Local_Supply_SelectArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegisters
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
-			</Item>
-			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="nidcpower_32.dll" Type="Document" URL="nidcpower_32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>

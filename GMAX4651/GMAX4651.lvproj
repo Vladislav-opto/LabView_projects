@@ -578,7 +578,7 @@ Local_Supply_SelectArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegisters
             <RelativeToLabVIEW>..\Shared\FlexRIO\IO Modules\NI 6581\NI6581Channel\1.0.0\Ni6581Channel.xml</RelativeToLabVIEW>
             <RelativeToNiPubDocs>..\..\..\..\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 6581\NI6581Channel\1.0.0\Ni6581Channel.xml</RelativeToNiPubDocs>
             <RelativeToNiSharedDir>Shared\FlexRIO\IO Modules\NI 6581\NI6581Channel\1.0.0\Ni6581Channel.xml</RelativeToNiSharedDir>
-            <RelativeToProject>..\..\..\..\..\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 6581\NI6581Channel\1.0.0\Ni6581Channel.xml</RelativeToProject>
+            <RelativeToProject>C:\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 6581\NI6581Channel\1.0.0\Ni6581Channel.xml</RelativeToProject>
             <Valid>true</Valid>
          </DeclarationPaths>
          <Description>This is a simple channel-based CLIP for the NI 6581 adapter module.  It has 48 data lines, eight PFI lines, two clock inputs, two clock outputs, and allows for individual clock output inversion.</Description>
@@ -1803,7 +1803,7 @@ Local_Supply_SelectArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegisters
 </CLIPDeclarationSet></Property>
 			<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">PXI-7953R/RioClk40/falsefalseFLEXRIO_IO_MODELNI_6581FPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSPXI_7953RFPGA_TARGET_FAMILYVIRTEX5TARGET_TYPEFPGA</Property>
 			<Property Name="NI.LV.FPGA.Version" Type="Int">6</Property>
-			<Property Name="niFpga_TopLevelVIID" Type="Path">/C/Users/agest/Downloads/Telegram Desktop/GMAX4651_LV/Target_4651.vi</Property>
+			<Property Name="niFpga_TopLevelVIID" Type="Path">/D/VPL/LabView_PRJ/GMAX4651/Target_4651.vi</Property>
 			<Property Name="Resource Name" Type="Str">RIO0</Property>
 			<Property Name="Target Class" Type="Str">PXI-7953R</Property>
 			<Property Name="Top-Level Timing Source" Type="Str">40 MHz Onboard Clock</Property>
@@ -2347,7 +2347,7 @@ FRAME_T1"ControlLogic=0;NumberOfElements=32767;Type=2;ReadArbs=Arbitrate if Mult
 &lt;/Cluster&gt;
 &lt;/Array&gt;
 Local_Supply_SelectArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/Local_Supply_Select;0;WriteMethodType=U8PXI-7953R/RioClk40/falsefalseFLEXRIO_IO_MODELNI_6581FPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSPXI_7953RFPGA_TARGET_FAMILYVIRTEX5TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]READActual Number of Elements=370;ReadArbs=1;WriteArbs=1;Implementation=2;DataType=1000800000000001000940050002553800000100000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=TRUE;Memory Latency=2T_TO_H"ControlLogic=0;NumberOfElements=511;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;T_TO_H;DataType=1000800000000001000940050002553800000100000000000000;DisableOnOverflowUnderflow=FALSE"T1 64-bitActual Number of Elements=6160384;ReadArbs=1;WriteArbs=1;Implementation=3;DataType=100080000000000100094008000355363400010000000000000000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=2WRITEActual Number of Elements=370;ReadArbs=1;WriteArbs=1;Implementation=2;DataType=1000800000000001000940050002553800000100000000000000;InitDataHash=49F7EB2DC60FC7290D42390B3D5312D9;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=TRUE;Memory Latency=2</Property>
-				<Property Name="NI.LV.FPGA.InterfaceBitfile" Type="Str">C:\Users\agest\Downloads\Telegram Desktop\GMAX4651_LV\FPGA Bitfiles\GMAX4651_FPGATarget_Target4651_1vC9aDqQjAU.lvbitx</Property>
+				<Property Name="NI.LV.FPGA.InterfaceBitfile" Type="Str">D:\VPL\LabView_PRJ\GMAX4651\FPGA Bitfiles\GMAX4651_FPGATarget_Target4651_7TB9TLSSPWg.lvbitx</Property>
 			</Item>
 			<Item Name="T1 64-bit" Type="FPGA Memory Block">
 				<Property Name="FPGA.PersistentID" Type="Str">{B431BA87-221E-446E-A2F3-A1E374EBA081}</Property>
@@ -4728,8 +4728,8 @@ Local_Supply_SelectArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegisters
 					<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
 					<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
 					<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
-					<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/Users/agest/Downloads/Telegram Desktop/GMAX4651_LV/FPGA Bitfiles/GMAX4651_FPGATarget_Target4651_1vC9aDqQjAU.lvbitx</Property>
-					<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/GMAX4651_FPGATarget_Target4651_1vC9aDqQjAU.lvbitx</Property>
+					<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/D/VPL/LabView_PRJ/GMAX4651/FPGA Bitfiles/GMAX4651_FPGATarget_Target4651_7TB9TLSSPWg.lvbitx</Property>
+					<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/GMAX4651_FPGATarget_Target4651_7TB9TLSSPWg.lvbitx</Property>
 					<Property Name="ProjectPath" Type="Path">/D/VPL/LabView_PRJ/GMAX4651/GMAX4651.lvproj</Property>
 					<Property Name="RelativePath" Type="Bool">true</Property>
 					<Property Name="RunWhenLoaded" Type="Bool">false</Property>
@@ -4774,7 +4774,7 @@ Local_Supply_SelectArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegisters
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="GMAX4651_FPGATarget_Target4651_1vC9aDqQjAU.lvbitx" Type="Document" URL="../FPGA Bitfiles/GMAX4651_FPGATarget_Target4651_1vC9aDqQjAU.lvbitx"/>
+			<Item Name="GMAX4651_FPGATarget_Target4651_7TB9TLSSPWg.lvbitx" Type="Document" URL="../FPGA Bitfiles/GMAX4651_FPGATarget_Target4651_7TB9TLSSPWg.lvbitx"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

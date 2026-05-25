@@ -1804,7 +1804,7 @@ Local_Supply_SelectArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegisters
 			<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">PXI-7953R/RioClk40/falsefalseFLEXRIO_IO_MODELNI_6581FPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSPXI_7953RFPGA_TARGET_FAMILYVIRTEX5TARGET_TYPEFPGA</Property>
 			<Property Name="NI.LV.FPGA.Version" Type="Int">6</Property>
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Property Name="niFpga_TopLevelVIID" Type="Path">/C/Users/agest/Downloads/Telegram Desktop/IMX425LLJ_LV/Target_425.vi</Property>
+			<Property Name="niFpga_TopLevelVIID" Type="Path">/C/Users/user/Downloads/Telegram Desktop/IMX425LLJ/Target_425.vi</Property>
 			<Property Name="Resource Name" Type="Str"></Property>
 			<Property Name="Target Class" Type="Str">PXI-7953R</Property>
 			<Property Name="Top-Level Timing Source" Type="Str">40 MHz Onboard Clock</Property>
@@ -2348,7 +2348,7 @@ H_TO_T"ControlLogic=0;NumberOfElements=261;Type=1;ReadArbs=Arbitrate if Multiple
 &lt;/Cluster&gt;
 &lt;/Array&gt;
 Local_Supply_SelectArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/Local_Supply_Select;0;WriteMethodType=U8PXI-7953R/RioClk40/falsefalseFLEXRIO_IO_MODELNI_6581FPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSPXI_7953RFPGA_TARGET_FAMILYVIRTEX5TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]READActual Number of Elements=185;ReadArbs=1;WriteArbs=1;Implementation=2;DataType=1000800000000001000940050002553800000100000000000000;InitDataHash=10A23BBC044DBC738C2B78A0167DDFC4;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=TRUE;Memory Latency=2T_TO_H"ControlLogic=0;NumberOfElements=255;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;T_TO_H;DataType=1000800000000001000940050002553800000100000000000000;DisableOnOverflowUnderflow=FALSE"WRITEActual Number of Elements=185;ReadArbs=1;WriteArbs=1;Implementation=2;DataType=1000800000000001000940070003553332000100000000000000000000;InitDataHash=0640127949108BE0B44664585B5C1186;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=TRUE;Memory Latency=2</Property>
-				<Property Name="NI.LV.FPGA.InterfaceBitfile" Type="Str">C:\Users\agest\Downloads\Telegram Desktop\IMX425LLJ_LV\FPGA Bitfiles\IMX425LLJ_FPGATarget_Target0505_axeeHwoy8cQ.lvbitx</Property>
+				<Property Name="NI.LV.FPGA.InterfaceBitfile" Type="Str">C:\Users\user\Downloads\Telegram Desktop\IMX425LLJ\FPGA Bitfiles\IMX425LLJ_FPGATarget_Target0505_LdE4Sbl1BZ8.lvbitx</Property>
 			</Item>
 			<Item Name="READ" Type="FPGA Memory Block">
 				<Property Name="FPGA.PersistentID" Type="Str">{CF8E6E93-1B86-4945-846A-5DF9CFCC9FFF}</Property>
@@ -4674,8 +4674,8 @@ Local_Supply_SelectArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegisters
 					<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
 					<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
 					<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
-					<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/D/VPL/LabView_PRJ/GMAX0505/FPGA Bitfiles/GMAX0505_FPGATarget_Target0505_42rFBjRCR8s.lvbitx</Property>
-					<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/GMAX0505_FPGATarget_Target0505_42rFBjRCR8s.lvbitx</Property>
+					<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/Users/user/Downloads/Telegram Desktop/IMX425LLJ/FPGA Bitfiles/IMX425LLJ_FPGATarget_Target0505_LdE4Sbl1BZ8.lvbitx</Property>
+					<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/IMX425LLJ_FPGATarget_Target0505_LdE4Sbl1BZ8.lvbitx</Property>
 					<Property Name="ProjectPath" Type="Path">/D/VPL/LabView_PRJ/GMAX0505/GMAX0505.lvproj</Property>
 					<Property Name="RelativePath" Type="Bool">true</Property>
 					<Property Name="RunWhenLoaded" Type="Bool">false</Property>
